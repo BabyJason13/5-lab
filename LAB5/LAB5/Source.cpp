@@ -22,7 +22,7 @@ int main()
 	cout << "Ведіть x: ";
 	cin >> x;
 
-	if (a < 0 && c != 0) {
+	if (a > 0 && c != 0) {
 		F = a * pow(x, 2) + b * x + c;
 	}
 	if (a > 0 && c == 0) {
